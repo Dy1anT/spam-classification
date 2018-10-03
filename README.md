@@ -1,5 +1,5 @@
 # Visual-Naive-Bayes
-Naive Bayes-based spam classification
+Naive Bayes-based spam classification and its visualization
 
 ![ALL](/Figure/ALL.png)
 
