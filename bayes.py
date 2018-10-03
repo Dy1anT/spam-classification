@@ -97,7 +97,7 @@ def spamTest():
             x0, y0 = MyclassifyNB(array(wordVector), p0V, p1V, pSpam)
             X0.append(x0)
             Y0.append(y0)
-    # plt.scatter(x, y, s = 75, c = t, alpha=0.5)  # s为size，按每个点的坐标绘制，alpha为透明度
+    
     axes = plt.subplot(111)
     type0 = axes.scatter(X0, Y0, s = 100, c = 'green', alpha = 0.5)
     type1 = axes.scatter(X1, Y1, s = 100, c = 'red', alpha = 0.5)
