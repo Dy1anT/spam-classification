@@ -1,7 +1,7 @@
 # Visual-Naive-Bayes
 Naive Bayes-based spam classification and its visualization
 
-基于朴素贝叶斯的垃圾邮件分类及其可视化分析
+基于朴素贝叶斯的垃圾邮件分类及其可视化
 
 ![ALL](/Figure/ALL.png)
 
