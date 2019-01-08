@@ -3,7 +3,7 @@ Naive Bayes-based spam classification and its visualization
 
 基于朴素贝叶斯的垃圾邮件分类及其可视化
 
-![ALL](/Figure/ALL.png)
+![ALL](/img/All.png)
 
 图1所示的是将50个样本进行训练之后，又用50个训练样本进行测试之后，做出的散点分布图。
 
@@ -13,14 +13,14 @@ Naive Bayes-based spam classification and its visualization
 
 于是我对一些具体情况进行了分析：
 
-![RIGHT](/Figure/RIGHT.png)
+![RIGHT](/img/Right.png)
 
 图2是40训练样本，10测试样本的情况，我们可以看到同样是很集中地分布在蓝线两旁。观察到虽然有一些点可能和蓝线有重叠（即十分接近），但是依然很好的落在了正确的范围内。此时的判断结果为：
 ```
 the error rate is: 0.0
 ```
 
-![ERROR](/Figure/ERROR.png)
+![ERROR](/img/Error.png)
 
 图3是判断发生错误的情况，可以看见一个红点（垃圾邮件）越过了右下角的判断区，结果被判断为正常文件。此时的结果为：
 ```
